@@ -1,0 +1,179 @@
+body {
+  background: linear-gradient(
+    rgb(83, 4, 2),
+    rgb(131, 38, 10),
+    rgb(230, 197, 10),
+  rgb(15, 15, 1));
+}
+.land {
+  height: 22cm;
+  text-shadow: lightslategray;
+  background-image: linear-gradient(rgba(22, 13, 13, 0.3), rgba(29, 3, 53, 0.2)),
+    url(images/student.jpg);
+  background-size: 100% 100%;
+  background-position: fixed;
+  letter-spacing: 6px;
+}
+.la {
+  width: 10cm;
+  height: 5cm;
+  padding-left: 3cm;
+  padding-top: 3cm;
+}
+.la b {
+  font-size: 70;
+  font-family: cursive;
+  color: rgb(94, 7, 86);
+  text-shadow: 2px 4px 2px rgb(7, 1, 14);
+}
+.land p {
+  font-size: 40;
+  color: rgb(22, 1, 54);
+  font-family: sans-serif;
+  text-shadow: 4px 2px rgba(46, 3, 3, 0.2);
+}
+.mo {
+  height: 40cm;
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.tl {
+  width: 9cm;
+  height: 15cm;
+  background-color: rgba(140, 162, 243, 0.4);
+  float: left;
+  margin: 30px 80px;
+  border-radius: 20%;
+  display: block;
+  transition: 0.4s;
+  border-bottom-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+.tl:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 15px 15px rgba(197, 26, 11, 0.4);
+}
+.tl img {
+  width: 9cm;
+  height: 6cm;
+  border-radius: 20%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 2%;
+}
+.tl h2 {
+  width: 9cm;
+  text-align: center;
+  text-shadow: rgb(57, 78, 117) 2px 2px;
+  font-family: cursive;
+  text-decoration-line: underline;
+}
+.tl p {
+  font-size: 18;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.button {
+  text-align: center;
+  width: 3cm;
+  height: 1cm;
+  font-size: 18;
+  font-family: fantasy;
+  color: rgb(243, 229, 229);
+  background: rgba(17, 230, 46, 0.6);
+  box-shadow: 2px 2px rgba(16, 16, 29, 0.4);
+  cursor: pointer;
+  position: absolute;
+  border-radius: 20%;
+}
+.tl a {
+  padding-left: 3cm;
+  padding-top: 2cm;
+}
+.carousel-inner {
+  height: 8cm;
+  background-color: brown;
+}
+.container {
+  height: 15cm;
+}
+footer {
+  text-align: end;
+  background-color: rgb(0, 0, 0);
+  height: 1cm;
+}
+.z{
+  padding:10px;
+
+}
+.z a{
+  text-decoration: none;
+  text-align:center;
+}
+.fa {
+  font-size: 18px;
+  width: 24px;
+  height:20px;
+  margin:1px 15px;
+}
+.fa:hover {
+  opacity: 0.6;
+}
+.fa-whatsapp {
+  background: rgb(41, 196, 36);
+  color: white;
+  border-radius: 4px;
+}
+.fa-linkedin {
+  background: rgb(65, 106, 219);
+  color: white;
+  border-radius: 50%;
+}
+.fa-youtube {
+  background: rgb(223, 21, 21);
+  color: white;
+  border-radius: 10%;
+}
+.fa-instagram {
+  background: linear-gradient(rgb(127, 12, 138), rgb(212, 77, 99), yellow);
+  color: white;
+  border-radius: 20%;
+}
+.fa-facebook {
+  background: rgb(86, 86, 179);
+  color: white;
+  border-radius: 50%;
+}
+.fa-telegram {
+  background: rgb(72, 163, 190);
+  color: white;
+  border-radius: 20%;
+}
+@media screen and (max-width:560px) {
+    .mo{
+      padding-left:10px;
+    }
+    .land{
+      background-image:none; 
+      letter-spacing: 0px;
+      height:8cm;
+    }
+    .footer{
+      text-align: end;
+    }
+    .z a{
+        margin: 0px 1px;
+    }
+    .la b{
+      font-size:38;
+    }
+    .la p{
+      font-size:18;
+    }
+}
+@media screen and (max-width:887px) {
+  .mo{
+    height:70cm;
+  }
+}

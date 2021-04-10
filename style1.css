@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(rgb(136, 136, 21), rgb(36, 36, 105));
+  font-size: 26;
+  padding-top: 3cm;
+  color: rgba(255, 248, 220, 0.6);
+  font-family: monospace;
+}
+b {
+  background: linear-gradient(
+    to right,
+    rgb(102, 102, 85),
+    rgb(5, 5, 80),
+    rgb(231, 106, 127)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+table,
+tr {
+  border-spacing: 30px;
+  font-size: 22;
+  color: rgba(255, 248, 220, 0.6);
+  font-family: monospace;
+}
+input {
+  width: 8cm;
+  height: 1cm;
+  background-color: rgba(8, 18, 36, 0.3);
+  border-radius: 12px;
+  border-style: hidden;
+  font-family: monospace;
+  font-size: 20;
+  color: rgba(255, 248, 220, 0.6);
+}
+select {
+  width: 8cm;
+  height: 1cm;
+  background-color: rgba(8, 18, 36, 0.3);
+  border-radius: 12px;
+  border-style: hidden;
+  font-size: 20;
+  font-family: monospace;
+  color: rgba(255, 248, 220, 0.6);
+}
+textarea {
+  background-color: rgba(8, 18, 36, 0.3);
+  border-radius: 12px;
+  border-style: hidden;
+  font-size: 20;
+  font-family: cursive;
+  color: rgba(255, 248, 220, 0.6);
+}
+button {
+  border-radius: 12px;
+  border-style: hidden;
+  width: 4cm;
+  height: 1cm;
+  background: rgb(2, 143, 143);
+  color: rgb(241, 228, 228);
+  font-size: 22;
+  font-style: oblique;
+}

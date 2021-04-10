@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Application form</title>
+        <link rel="stylesheet" href="style1.css"></link>
+    </head>
+    <body>
+        <center>
+        <h2>Join as a <b>Mentor!</b></h2>
+        <table border:3>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter FullName.."></input></td>
+            </tr>
+            <tr>
+                <td>Mail id</td>
+                <td><input type="email" placeholder="eg.abcd010@gmail.com"></input></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td><input type="text" placeholder="Enter 10 digits..."></input></td>
+            </tr>
+            <tr>
+                <td>College Name</td>
+                <td><input type="text"></input></td>
+            </tr>
+            <tr>
+                <td>Year of Graduation</td>
+                <td>
+                    <select>
+                        <option name="none">select</option>
+                        <option name="1">2022</option>
+                        <option name="1">2021</option>
+                        <option name="2">2020</option>
+                        <option name="3">2019</option>
+                        <option name="3">Below 2019</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Domain of expertise</td>
+                <td>
+                    <select>
+                        <option name="none">select</option>
+                        <option name="1">App Development</option>
+                        <option name="1">Web Development</option>
+                        <option name="2">Graphics Design</option>
+                        <option name="3">Soft Skills</option>
+                        <option name="3">Personality Development</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Share some of your past work</td>
+                <td>
+                    <textarea rows=10 cols=40></textarea>
+                </td>
+            </tr>
+        </table>
+        <a href="index.html"><button onclick="myfun()">Submit</button></a>
+        </center>
+        <script>
+            function myfun(){
+                alert("Submitted Successfully!");
+            }
+        </script>
+    </body>
+</html>
