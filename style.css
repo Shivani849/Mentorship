@@ -160,7 +160,7 @@ footer {
   }
     .mo{
       height:20cm;
-      padding-left:50px;
+      padding-left:40px;
       margin:auto;
     }
     .land{
@@ -195,6 +195,7 @@ footer {
 @media screen and (max-width:887px) {
   .mo{
     height:20cm;
+    padding-left:30px;
   }
 }
 
