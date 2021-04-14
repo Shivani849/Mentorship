@@ -164,26 +164,17 @@ footer {
       align-items: center;
     }
     .la{
-      padding-left:2cm;
+      padding-left:1cm;
     }
     .la b{
       font-family: sans-serif;
-      font-size:xx-small;
-    }
-    .la p{
-      padding-left:0cm;
+      font-size:9;
     }
     .footer{
       text-align: end;
     }
     .z a{
         margin: 0px 1px;
-    }
-    .la b{
-      font-size:38;
-    }
-    .la p{
-      font-size:18;
     }
 }
 @media screen and (max-width:887px) {
