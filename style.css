@@ -1,19 +1,18 @@
-body{
-  border:5px;
-  border-style:double;
+body {
+  border: 5px;
+  border-style: double;
   border-color: rgb(87, 54, 5);
   background-image: url(images/student.jpg);
 }
 .land {
-  height: 10cm;
+  height: 15cm;
   text-shadow: lightslategray;
   background-size: 100% 100%;
   background-position: fixed;
-  
 }
 .la {
   height: 5cm;
-  padding-left: 3cm;
+  padding-left: 2cm;
   padding-top: 3cm;
 }
 .la b {
@@ -22,28 +21,38 @@ body{
   color: rgb(94, 7, 86);
   text-shadow: 2px 4px 2px rgb(7, 1, 14);
 }
-.la img{
-  width:4cm; 
+.la img {
+  width: 4cm;
 }
+.nd{
+  float:bottom;
+  height:5cm;
+  padding-left:14cm;
+}
+.mentor{
+  width:8cm;
+  height:5cm;
+}
+
 .mo {
   height: 20cm;
-  padding-left:40px;
+  padding-left: 40px;
   padding-top: 50px;
   text-align: center;
-  font-family:sans-serif;
-  color:rgb(11, 17, 27);
+  font-family: sans-serif;
+  color: rgb(11, 17, 27);
 }
 .tl {
   width: 7cm;
   height: 14cm;
   margin: 40px 20px;
   border-radius: 12px;
-  display:block;
-  border-style:solid;
-  border-color:rgb(124, 120, 128);
-  float:left;
+  display: block;
+  border-style: solid;
+  border-color: rgb(124, 120, 128);
+  float: left;
   transition: 0.4s;
-  color:rgb(11, 111, 124);
+  color: rgb(11, 111, 124);
 }
 .tl:hover {
   transform: scale(1.1);
@@ -58,9 +67,9 @@ body{
 }
 .tl h2 {
   width: 5cm;
-  font-size:18;
+  font-size: 18;
   text-align: center;
-  font-family:sans-serif;
+  font-family: sans-serif;
   text-decoration-line: underline;
 }
 .tl p {
@@ -68,23 +77,22 @@ body{
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
-.but{
-
-  position:relative;
-  padding:40px;
+.but {
+  position: relative;
+  padding: 40px;
 }
-.but button{
+.but button {
   text-align: center;
   width: 5cm;
   height: 1cm;
   font-size: 16;
-  font-family:sans-serif;
+  font-family: sans-serif;
   color: rgb(218, 203, 203);
-  background:rgb(109, 109, 151);
+  background: rgb(109, 109, 151);
   box-shadow: 2px 2px rgba(16, 16, 29, 0.4);
-  position:absolute;
-  bottom:0;
-  left:35px;
+  position: absolute;
+  bottom: 0;
+  left: 35px;
   cursor: pointer;
   border-radius: 12px;
 }
@@ -94,33 +102,32 @@ body{
 }
 .carousel-inner {
   height: 6cm;
-  background-color: rgba(8, 8, 8,0.2);
+  background-color: rgba(8, 8, 8, 0.2);
 }
 .container {
   height: 10cm;
-  font-family:serif;
-  color:rgb(46, 32, 32);
+  font-family: serif;
+  color: rgb(46, 32, 32);
 }
 footer {
-  border-style:solid;
+  border-style: solid;
   text-align: center;
   background-color: rgba(56, 47, 47, 0.3);
   height: 3.5cm;
 }
-.z{
-  padding:10px;
+.z {
+  padding: 10px;
   padding-top: 1.3cm;
 }
-.z a{
+.z a {
   text-decoration: none;
-  text-align:center;
+  text-align: center;
 }
 .fa {
   font-size: 34px;
   width: 40px;
-  height:40px;
-  margin:1px 15px;
-
+  height: 40px;
+  margin: 1px 15px;
 }
 .fa:hover {
   opacity: 0.6;
@@ -129,7 +136,7 @@ footer {
   color: rgb(7, 122, 65);
 }
 .fa-linkedin {
-  color:rgb(9, 9, 109);
+  color: rgb(9, 9, 109);
 }
 .fa-youtube {
   color: rgb(224, 41, 41);
@@ -139,49 +146,53 @@ footer {
 }
 .fa-facebook {
   color: rgb(114, 10, 233);
- 
 }
 .fa-telegram {
-  
   color: rgb(31, 169, 211);
 }
-@media screen and (max-width:780px) {
-
-  .body{
+@media screen and (max-width: 780px) {
+  .body {
     justify-content: center;
-    position:fixed;
-    border-style:none;
+    position: fixed;
+    border-style: none;
   }
-    .mo{
-      height:20cm;
-      padding-left:40px;
-      margin:auto;
-    }
-    .land{
-      height:15cm;
-    }
-    .la img{
-      align-items: center;
-      width:2cm;
-    }
-    .la{
-      padding-left:1cm;
-    }
-    .la b{
-      font-family: sans-serif;
-      font-size:9;
-    }
-    .footer{
-      text-align: end;
-    }
-    .z a{
-        margin: 0px 1px;
-    }
-}
-@media screen and (max-width:887px) {
-  .mo{
-    height:20cm;
-    padding-left:30px;
+  .mo {
+    height: 20cm;
+    padding-left: 10px;
+    margin: auto;
+  }
+  .land {
+    height:6cm;
+  }
+  .la img {
+    display:none;
+    width:2cm;
+  }
+  .la {
+    padding-left: 0.2cm;
+  }
+  .la b {
+    font-family: sans-serif;
+    font-size:11;
+    text-shadow: none;
+  }
+  .nd{
+    padding-left:0.2cm;
+    background-image: url(images/mentor.svg);
+    background-repeat: no-repeat;
+    background-position:top;
+    float:bottom;
+  }
+  .footer {
+    text-align: end;
+  }
+  .z a {
+    margin: 0px 1px;
   }
 }
-
+@media screen and (max-width: 887px) {
+  .mo {
+    height: 20cm;
+    padding-left: 30px;
+  }
+}
