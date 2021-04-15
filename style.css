@@ -190,11 +190,3 @@ footer {
     margin: 0px 1px;
   }
 }
-/*Mobile responsive*/
-@media screen and (max-width: 887px) and (min-width:700px) {
-  .mo {
-    height: 30cm;
-    padding-left: 30px;
-  }
-  
-}
