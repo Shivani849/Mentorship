@@ -58,11 +58,6 @@ body {
   box-shadow: 0px 0px 4px 4px rgb(51, 49, 49);
   border-style:ridge;
 }
-.tl:hover {
-  transform: scale(1.1);
-  box-shadow: 2px 2px 8px 8px rgb(51, 49, 49);
-  border-width:thick;
-}
 .tl img {
   padding-top: 2px;
   width: 6.5cm;
