@@ -198,7 +198,7 @@ textarea {
   font-family: cursive;
   color: rgb(14, 12, 6);
 }
-button {
+.submit button {
   border-radius: 12px;
   border-style: hidden;
   width: 4cm;
