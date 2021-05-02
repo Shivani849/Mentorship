@@ -207,6 +207,7 @@ button {
   color: rgb(230, 216, 216);
   font-size: 22;
   font-style: sans-serif;
+  margin-left:80px;
 }
 
 @media screen and (max-width: 780px) {
