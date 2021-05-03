@@ -1,8 +1,8 @@
 body {
   border: 5px;
   border-style: double;
-  border-color: rgb(87, 54, 5);
-  background-image: url(images/student.jpg);
+  border-color: rgb(104, 6, 6);
+  background-color: rgba(255, 255, 255, 0.185);
 }
 .land {
   height: 18cm;
@@ -47,30 +47,27 @@ body {
 .tl {
   width: 7cm;
   height: 13cm;
-  margin: 40px 15px;
+  margin: 40px 24px;
   border-radius: 12px;
   display: block;
   float: left;
   transition: 0.4s;
-  color: rgb(11, 111, 124);
+  color: rgb(10, 42, 46);
   border-width: 10px;
   border-color: rgba(0, 0, 255, 0.2);
   box-shadow: 0px 0px 4px 4px rgb(51, 49, 49);
   border-style:ridge;
+  background-color: rgba(14, 13, 13, 0.164);
 }
 .tl img {
-  padding-top: 2px;
   width: 6.5cm;
   height: 4cm;
-  border-radius: 12px;
-  border-style: solid;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
 }
 .tl h2 {
-  width: 5cm;
-  font-size: 17;
+
+  font-size: 16;
   font-family: sans-serif;
+  font-weight: bold;
 }
 .tl p {
   font-size: 16;
@@ -159,14 +156,13 @@ footer {
   color: rgb(31, 169, 211);
 }
 .table{
-  text-align: center;
-  width:18cm;
-  margin-left:60px;
+  width:20cm;
 }
 tr {
-  text-align:center;
+  text-align:left;
   border-spacing:12px;
   font-size: 18;
+  border:none;
   color: rgba(5, 5, 5, 0.6);
   font-family: monospace;
 }
@@ -207,7 +203,6 @@ textarea {
   color: rgb(230, 216, 216);
   font-size: 22;
   font-style: sans-serif;
-  margin-left:80px;
 }
 
 @media screen and (max-width: 780px) {
@@ -220,7 +215,7 @@ textarea {
     margin: auto;
   }
   .land {
-    height: 14cm;
+    height: 13cm;
   }
   .la img {
     width: 4cm;
@@ -266,7 +261,7 @@ textarea {
     height:3cm;
     font-size:11;
   }
-  button{
+  .submit button{
     width:2cm;
     height:0.6cm;
     font-size:12;
@@ -291,8 +286,9 @@ textarea {
   .f{
     font-size: 17;
     height:10cm;
-    padding-left:1.2cm;
+    padding-left:1cm;
     letter-spacing: 3px;
+    text-align:left;
   }
   .fa {
     width: 40px;
