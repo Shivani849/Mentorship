@@ -1,9 +1,51 @@
 body {
-  border: 5px;
-  border-style: double;
-  border-color: rgb(104, 6, 6);
-  background-color: rgba(255, 255, 255, 0.185);
+  width:100%;
+  overflow-x: hidden;
+  background-color: rgba(80, 74, 74, 0.185);
 }
+.bar{
+  top:0px;
+  position:absolute;
+  width:100%;
+}
+.nav li a{
+  font-size:20px;
+}
+.logo img{
+  width:3cm;
+  height:1.5cm;
+}
+/*.nav-bar{
+  height:1.3cm;
+  width:100%;
+  display:flex;
+  background-color: rgb(56, 54, 54);
+  position:fixed;
+  top:0px;
+  left:0px;
+  display:none;
+}
+.logo{
+  margin-left:1cm;
+}
+.logo img{
+ 
+  width:3cm;
+  height:100%;
+}
+.nav{
+  display:flex;
+  position:absolute;
+  right:20px;
+  margin-top: 10px;
+}
+.nav ul a{
+  margin-left:50px;
+  text-decoration: none;
+  font-size:20px;
+  color:whitesmoke;
+  cursor: pointer;
+}*/
 .land {
   height: 18cm;
   text-shadow: lightslategray;
@@ -11,6 +53,7 @@ body {
   background-size: 100% 100%;
   background-repeat:no-repeat;
   background-position: center;
+  
 }
 .la {
   height: 5cm;
@@ -35,32 +78,32 @@ body {
   width: 8cm;
   height: 5cm;
 }
-
+.head{
+  padding-top:30px;
+  text-align:center;
+  font-size: 25px;
+}
 .mo {
-  height: 22cm;
-  padding-left: 40px;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-left:80px;
   text-align: center;
   font-family: sans-serif;
   color: rgb(11, 17, 27);
+  display:flex;
+  flex-wrap: wrap;
 }
 .tl {
-  width: 7cm;
+  width: 6cm;
   height: 13cm;
-  margin: 40px 24px;
+  margin: 40px 30px;
   border-radius: 12px;
-  display: block;
-  float: left;
-  transition: 0.4s;
   color: rgb(10, 42, 46);
-  border-width: 10px;
-  border-color: rgba(0, 0, 255, 0.2);
-  box-shadow: 0px 0px 4px 4px rgb(51, 49, 49);
-  border-style:ridge;
-  background-color: rgba(14, 13, 13, 0.164);
+  box-shadow: 0px 0px 5px 5px rgb(136, 136, 136);
 }
 .tl img {
-  width: 6.5cm;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 6cm;
   height: 4cm;
 }
 .tl h2 {
@@ -84,12 +127,13 @@ body {
   height: 1cm;
   font-size: 16;
   font-family: sans-serif;
-  color: rgb(218, 203, 203);
-  background: rgb(109, 109, 151);
+  color: rgb(255, 255, 255);
+  background: rgb(109, 109, 112);
+  border-style: none;
   box-shadow: 2px 2px rgba(16, 16, 29, 0.4);
   position: absolute;
   top:0;
-  left:35px;
+  left:20px;
   cursor: pointer;
   border-radius: 12px;
 }
@@ -99,7 +143,7 @@ body {
 }
 .carousel-inner {
   height: 6cm;
-  background-color: rgba(8, 8, 8, 0.2);
+  background-color: rgba(37, 37, 37, 0.2);
 }
 .container {
   height: 10cm;
@@ -121,6 +165,7 @@ footer {
 .z a {
   text-decoration: none;
   text-align: center;
+  font-size:28px;
 }
 .f{
   font-size: 17;
@@ -134,6 +179,7 @@ footer {
   height: 40px;
   margin: 1px 15px;
 }
+
 .fa:hover {
   opacity: 0.6;
 }
@@ -155,18 +201,24 @@ footer {
 .fa-telegram {
   color: rgb(31, 169, 211);
 }
-.table{
+.form{
+    padding-top:3cm;
+   
+}
+/*.table{
   width:20cm;
 }
 tr {
   text-align:left;
   border-spacing:12px;
   font-size: 18;
+  width:9cm;
   border:none;
   color: rgba(5, 5, 5, 0.6);
   font-family: monospace;
 }
 input {
+ 
   width: 8cm;
   height: 1cm;
   background-color: rgba(8, 18, 36, 0.3);
@@ -203,17 +255,20 @@ textarea {
   color: rgb(230, 216, 216);
   font-size: 22;
   font-style: sans-serif;
-}
+}*/
 
 @media screen and (max-width: 780px) {
   .body {
     position: fixed;
+    overflow-x: hidden;
   }
   .mo {
-    height: 20cm;
-    padding-left: 10px;
+    padding-left: 30px;
     margin: auto;
+    display:grid;
+    
   }
+
   .land {
     height: 13cm;
   }
@@ -236,7 +291,7 @@ textarea {
   .footer {
     text-align: end;
   }
-  table{
+  /*table{
     
     border-spacing: 20px;
   }
@@ -269,7 +324,7 @@ textarea {
   .tr{
     display:grid;
     height:12cm;
-  }
+  }*/
 
   footer{
     height:12cm;
@@ -286,7 +341,7 @@ textarea {
   .f{
     font-size: 17;
     height:10cm;
-    padding-left:1cm;
+    margin-right: 4cm;
     letter-spacing: 3px;
     text-align:left;
   }
@@ -295,9 +350,4 @@ textarea {
     height: 40px;
   }
 }
-@media screen and (max-width: 887px) {
-  .mo {
-    height: 20cm;
-    padding-left: 30px;
-  }
-}
+
