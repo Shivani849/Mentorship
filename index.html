@@ -3,14 +3,36 @@
         <title>Mentorship</title> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link rel="stylesheet" href="style.css"></link>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
     <body>
-      <div class="land">
+      <div class="bar">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <div class="logo"><img src="images/TT logo.png"></div>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#land">Home</a></li>
+                <li><a href="#mo">Our Programs</a></li>
+                <li><a href="#testmonials">Testmonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div class="land" id="land">
         <div class="la">
             <b>Join Mentorship, Be the expert
                 from Zero to Hero
@@ -20,14 +42,13 @@
               </div>
           </div>
       </div>
-      
+      <div class="head" id="mo"><h2>Our Programs</h2></div>
         <div class="mo">
-          <h2>Our Programs</h2>
             <div class="tl">
                 <img src="images/web.jpg"></img>
                 <h2>Web Development</h2>
                 <p>Web Developer is a countable for building and maintaining functional and aesthetic websites. Here is a opportunity to all
-                    web developers that who are interested to join as a mentor can apply before May 10,2021. </p>
+                    web developers that who are interested to join as a mentor can apply here. </p>
                     <div class="but">
                       <a href="form.html"><button>Apply Now!</button></a> 
                     </div>    
@@ -60,67 +81,10 @@
                   <a href="form.html"><button>Apply Now!</button></a> 
                 </div>
             </div>
-        </div>
-        <center>
-          <h2>Join as a <b>Mentor!</b></h2>
-          <table border="0" class="table">
-              <tr>
-                  <td>Name</td>
-                  <td><input type="text" placeholder="Enter FullName.."></input></td>
-              </tr>
-              <tr>
-                  <td>Mail id</td>
-                  <td><input type="email" placeholder="eg.abcd010@gmail.com"></input></td>
-              </tr>
-              <tr>
-                  <td>Phone number</td>
-                  <td><input type="text" placeholder="Enter 10 digits..."></input></td>
-              </tr>
-              <tr>
-                  <td>College Name</td>
-                  <td><input type="text"></input></td>
-              </tr>
-              <tr>
-                  <td>Year of Graduation</td>
-                  <td>
-                      <select>
-                          <option name="none">select</option>
-                          <option name="1">2022</option>
-                          <option name="1">2021</option>
-                          <option name="2">2020</option>
-                          <option name="3">2019</option>
-                          <option name="3">Below 2019</option>
-                      </select>
-                  </td>
-              </tr>
-              <tr>
-                  <td>Domain of expertise</td>
-                  <td>
-                      <select>
-                          <option name="none">select</option>
-                          <option name="1">App Development</option>
-                          <option name="1">Web Development</option>
-                          <option name="2">Graphics Design</option>
-                          <option name="3">Soft Skills</option>
-                          <option name="3">Personality Development</option>
-                      </select>
-                  </td>
-              </tr>
-              <tr>
-                  <td>Share some of your past work</td>
-                  <td>
-                      <textarea rows=10 cols=40></textarea>
-                  </td>
-              </tr>
-          </table>
-          <a href="index.html" class="submit"><button onclick="myfun()">Submit</button></a>
-        </center>
-          <script>
-              function myfun(){
-                  alert("Submitted Successfully!");
-              }
-          </script>
-            <h2 style="text-align:center; color:rgb(23, 7, 82); font-family: sans-serif; padding-top: 4cm;">Testmonials</h2>
+          </div>
+
+      
+            <h2 id="testmonials" style="text-align:center; color:rgb(23, 7, 82); font-family: sans-serif; padding-top: 4cm;">Testmonials</h2>
             <div class="container">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
@@ -173,7 +137,7 @@
                 </div>
             </div>    
             <footer>
-              <div class="tr">
+              <div class="tr" id="contact">
               <div class="z">
                 <a href="#" class="fa fa-whatsapp"></a> 
                 <a href="https://www.linkedin.com/mwlite/company/tech-table" class="fa fa-linkedin"></a> 
